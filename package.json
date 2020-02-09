@@ -2,9 +2,10 @@
   "name": "vocabulary-edge",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    //"test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Lazzlo2096/vocabulary-edge/issues"
   },
-  "homepage": "https://github.com/Lazzlo2096/vocabulary-edge#readme"
+  "homepage": "https://github.com/Lazzlo2096/vocabulary-edge#readme",
+  "devDependencies": {
+    "electron": "^8.0.0"
+  }
 }
